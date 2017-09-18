@@ -1,0 +1,49 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 0.14rem;
+	box-sizing: border-box;
+ 	list-style: none;
+ 	line-height:0;
+}
+
+body{
+	width: 100%;
+	height:auto;
+}
+
+html,body{
+	background-color: #edeef2;;
+}
+
+#root{
+	width: 100%;
+	height: 100%;
+	background: #edeef2;
+}
+
+#myContainer,#Mytable{
+	margin: 0 auto;
+	width: calc(100% - 0.36rem);
+	height: 100%;
+}
+
+#Mytable{
+	width: 100%;
+	height: 100%;
+}
+
+#myTitle{
+	width: 100%;
+	height: 0.5rem;
+}
+
+#myDatas{
+	width: 100%;
+	/* height: 8.5rem; */
+	height:5.5rem;
+	background: white;
+	border-radius: 0.08rem;
+	margin-bottom: 0.15rem;
+}
+

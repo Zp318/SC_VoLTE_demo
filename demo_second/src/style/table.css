@@ -1,0 +1,98 @@
+#myDatas{
+	width: 97%;
+    padding: 0 1.5%;
+}
+
+#myTitle,#myTitle > ul{
+	width: 100%;
+	height:0.5rem;
+}
+
+#myTitle > ul > li{
+	height: 0.5rem;
+    line-height: 0.5rem;
+}
+
+#myTitle > ul > li:first-child{
+    text-indent: 0.2rem;
+    font-weight: bold;
+    float: left;
+}
+
+#myTitle > ul > li:first-child > span:first-child{
+	width: 0.1rem;
+    height: 0.1rem;
+    display: inline-block;
+    line-height: 0.1rem;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 0.15rem;
+    /* top: 0.05rem; */
+    background-color: #20b0ec;
+}
+
+.exportExcel{
+	height: 0.3rem;
+	/* margin-right: 0.3rem; */
+	cursor: pointer;
+	position: relative;
+}
+
+.anticon-export {
+        float: right;
+    /* line-height: 0.3rem; */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.ant-table-scroll{
+	   /*  height: 7.6rem; */
+}
+
+/* .ant-table-tbody{
+	height:0.5rem;
+} */
+
+.ant-table-pagination{
+	margin: 16px 0;
+    /* margin: 0 auto; */
+    width: 100%;
+    text-align: center;
+}
+
+.ant-table-tbody>tr>td, .ant-table-thead>tr>th{
+	white-space: nowrap;
+}
+
+.ant-table-small{
+	border: 0px solid transparent;
+}
+
+.ant-table-tbody>tr:nth-child(2n+1) {
+    background-color: #f0f0f0;
+}
+
+.ant-table-tbody > tr{
+    height: 0.35rem;
+}
+
+.ant-table-body{
+    height:4.5rem;
+}
+
+.ant-table-wrapper{
+    margin-top:0.16rem;
+}
+
+.ant-pagination-item a{
+    line-height: 20px;
+}
+
+.ant-table-small .ant-table-header table{
+    border-bottom: none;
+}
+
+:root .ant-table-column-sorter .anticon-caret-down, :root .ant-table-column-sorter .anticon-caret-up {
+    font-size: 16px;
+}
