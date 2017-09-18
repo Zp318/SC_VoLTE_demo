@@ -1,0 +1,121 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 0.14rem;
+	box-sizing: border-box;
+	list-style: none;
+	line-height: 0;
+}
+
+body {
+	width: 100%;
+	height: auto;
+}
+
+html,
+body {
+	background-color: #edeef2;
+}
+
+#root {
+	width: 100%;
+	height: 100%;
+	background: #edeef2;
+	position: relative;
+}
+
+#container {
+	margin: 0 auto;
+	width: calc(100% - 0.36rem);
+	height: 100%;
+}
+
+#area_one {
+	width: 100%;
+	height: 0.4rem;
+}
+
+#AreaTwo,
+#area_two {
+	width: 100%;
+	height: 2.9rem;
+	background: white;
+	border-radius: 0.04rem;
+}
+
+#area_three {
+	width: 100%;
+	height: 3.3rem;
+	margin: 0.15rem 0 0.15rem 0;
+}
+
+#area_three_left {
+	width: calc(50% - 0.05rem);
+	height: 3.3rem;
+	background: white;
+	margin-right: 0.05rem;
+	float: left;
+	border-radius: 0.04rem;
+}
+
+#AreaThreeLeft {
+	width: 100%;
+	height: 3.3rem;
+}
+
+#area_three_right {
+	width: calc(50% - 0.05rem);
+	height: 3.3rem;
+	background: white;
+	margin-left: 0.05rem;
+	float: left;
+	border-radius: 0.04rem;
+}
+
+#AreaThreeRight {
+	width: 100%;
+	height: 3.3rem;
+}
+
+#area_four {
+	width: 100%;
+	background: white;
+	margin-bottom: 0.2rem;
+	border-radius: 0.04rem;
+	height: 5.2rem;
+}
+
+#loadMask {
+	width: 100%;
+	left: 0rem;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.1);
+	position: absolute;
+	z-index: 999;
+}
+
+#Loading {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	position: absolute;
+	z-index: 1000;
+}
+
+.ant-spin {
+	margin-top: 25%;
+}
+
+.nodata {
+	text-align: center;
+	line-height: 3rem;
+	font-size: 0.2rem;
+	font-weight: bolder;
+}
+
+.ant-spin-dot {
+	width: 32px;
+	height: 32px;
+	margin-left: 16px;
+	margin-bottom: 10px;
+}

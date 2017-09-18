@@ -1,0 +1,17 @@
+{
+	"code":200,
+	"data":{
+		"pie":{
+			"title":"成都-VoLTE通话时长占比",
+			"legend": ["VoLTE语音驻留比","VoLTE用户纯CS语音通话时长占比","VoLTE用户SRVCC切换到CS后通话时长占比" ,"VoLTE用户CSFB通话时长占比" , "网络侧原因回落时长占比"],
+			"unit": "%",
+			"series": [
+                {"value":3, "name":"VoLTE语音驻留比"},
+                {"value":3, "name":"VoLTE用户纯CS语音通话时长占比"},
+                {"value":5000, "name":"VoLTE用户SRVCC切换到CS后通话时长占比"},
+                {"value":1, "name":"VoLTE用户CSFB通话时长占比"},
+                {"value":1, "name":"网络侧原因回落时长占比"}
+            ]
+		}
+	}
+}
